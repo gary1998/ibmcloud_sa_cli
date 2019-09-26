@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/IBM-Cloud/ibm-cloud-cli-sdk/plugin"
-	sa_plugin "github.ibm.com/gaurgosw/ibmcloud_sa_cli/plugin"
+	sa_plugin "./plugin"
 )
 
 var PluginBuildNumber string

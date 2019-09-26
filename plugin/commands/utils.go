@@ -9,7 +9,7 @@ import (
 	"github.com/IBM-Cloud/ibm-cloud-cli-sdk/bluemix/trace"
 	"github.com/IBM-Cloud/ibm-cloud-cli-sdk/plugin"
 	"github.com/urfave/cli"
-	"github.ibm.com/gaurgosw/ibmcloud_sa_cli/plugin/models"
+	"../models"
 )
 
 func FailWithUsage(context *cli.Context, ui terminal.UI) {

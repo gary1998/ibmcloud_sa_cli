@@ -13,7 +13,7 @@ import (
 	"github.com/IBM-Cloud/ibm-cloud-cli-sdk/bluemix/trace"
 	"github.com/IBM-Cloud/ibm-cloud-cli-sdk/common/rest"
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.ibm.com/gaurgosw/ibmcloud_sa_cli/plugin/models"
+	"../models"
 
 	"strings"
 

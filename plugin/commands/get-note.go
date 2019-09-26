@@ -5,11 +5,11 @@ import (
 	"strconv"
 
 	"github.com/urfave/cli"
-	"github.ibm.com/gaurgosw/ibmcloud_sa_cli/plugin/resources"
+	"../resources"
 
 	"github.com/IBM-Cloud/ibm-cloud-cli-sdk/bluemix/terminal"
 	"github.com/IBM-Cloud/ibm-cloud-cli-sdk/plugin"
-	"github.ibm.com/gaurgosw/ibmcloud_sa_cli/plugin/models"
+	"../models"
 )
 
 type GetNote struct {

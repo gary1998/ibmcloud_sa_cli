@@ -16,9 +16,9 @@ import (
 	"strings"
 
 	"github.com/IBM-Cloud/ibm-cloud-cli-sdk/bluemix/terminal"
-	"github.ibm.com/gaurgosw/ibmcloud_sa_cli/plugin/commands"
-	"github.ibm.com/gaurgosw/ibmcloud_sa_cli/plugin/models"
-	"github.ibm.com/gaurgosw/ibmcloud_sa_cli/plugin/resources"
+	"./commands"
+	"./models"
+	"./resources"
 )
 
 type SAPlugin struct {
